@@ -39,6 +39,9 @@ const Header = (props) => {
           <li>
             <Link to="/register">Register</Link>
           </li>
+          <li>
+                <Link to="/contact">Contact</Link>
+            </li>
         </ul>
         <div className={classes["hamburger"]} onClick={handleClick}>
             {click ? (

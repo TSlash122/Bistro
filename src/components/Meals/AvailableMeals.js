@@ -1,11 +1,15 @@
 import classes from "./AvailableMeals.module.css";
 import Card from "../UI/Card";
 import MealItem from "./MealItem/MealItem";
+import Hamburger from "../../assests/Hamburger.jpeg";
+
 
 const DUMMY_MEALS = [
   {
     id: "m1",
     name: "Hamburger",
+    image: Hamburger,
+   
     description: "The Classic Burger",
     price: 22.99,
   },
@@ -49,6 +53,7 @@ const AvailableMeals = () => {
       name={meal.name}
       description={meal.description}
       price={meal.price}
+      image={meal.image}
     />
   ));
 

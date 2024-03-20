@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "../App.css";
-import Navbar from "../components/Navbar";
 import Header from "../components/Layout/Header";
 import Meals from "../components/Meals/Meals";
 import Cart from "../components/Cart/Cart";

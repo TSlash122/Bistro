@@ -42,7 +42,12 @@ const Header = (props) => {
           <li>
                 <Link to="/contact">Contact</Link>
             </li>
+            <li>
+                <Link to="/adminlogin">Admin</Link>
+            </li>
+                
         </ul>
+        
         <div className={classes["hamburger"]} onClick={handleClick}>
             {click ? (
                 <FaTimes size={20} style={{color: "#fff"}} />

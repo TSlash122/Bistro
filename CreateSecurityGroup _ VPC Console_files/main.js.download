@@ -1,0 +1,616 @@
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ 51461:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var map = {
+	"./de/translation.json": 79331,
+	"./en/translation.json": 66690,
+	"./en_UK/translation.json": 49321,
+	"./es/translation.json": 87083,
+	"./fr/translation.json": 77690,
+	"./id/translation.json": 31282,
+	"./it/translation.json": 5376,
+	"./ja/translation.json": 9492,
+	"./ko/translation.json": 83070,
+	"./pt_BR/translation.json": 51031,
+	"./th/translation.json": 68773,
+	"./tr/translation.json": 43351,
+	"./zh_CN/translation.json": 11008,
+	"./zh_TW/translation.json": 50580
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 51461;
+
+/***/ }),
+
+/***/ 50522:
+/***/ ((module) => {
+
+function webpackEmptyContext(req) {
+	var e = new Error("Cannot find module '" + req + "'");
+	e.code = 'MODULE_NOT_FOUND';
+	throw e;
+}
+webpackEmptyContext.keys = () => ([]);
+webpackEmptyContext.resolve = webpackEmptyContext;
+webpackEmptyContext.id = 50522;
+module.exports = webpackEmptyContext;
+
+/***/ }),
+
+/***/ 23094:
+/***/ ((__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) => {
+
+"use strict";
+
+// UNUSED EXPORTS: ERROR_EVENT, SECURITY_POLICY_VIOLATION_EVENT
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.array.last-index.js
+var esnext_array_last_index = __webpack_require__(19104);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.array.last-item.js
+var esnext_array_last_item = __webpack_require__(7286);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.composite-key.js
+var esnext_composite_key = __webpack_require__(69665);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.composite-symbol.js
+var esnext_composite_symbol = __webpack_require__(17706);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.delete-all.js
+var esnext_map_delete_all = __webpack_require__(18754);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.every.js
+var esnext_map_every = __webpack_require__(56633);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.filter.js
+var esnext_map_filter = __webpack_require__(85825);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.find.js
+var esnext_map_find = __webpack_require__(42742);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.find-key.js
+var esnext_map_find_key = __webpack_require__(67222);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.from.js
+var esnext_map_from = __webpack_require__(13343);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.group-by.js
+var esnext_map_group_by = __webpack_require__(74434);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.includes.js
+var esnext_map_includes = __webpack_require__(48876);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.key-by.js
+var esnext_map_key_by = __webpack_require__(32959);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.key-of.js
+var esnext_map_key_of = __webpack_require__(23776);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.map-keys.js
+var esnext_map_map_keys = __webpack_require__(4794);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.map-values.js
+var esnext_map_map_values = __webpack_require__(61994);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.merge.js
+var esnext_map_merge = __webpack_require__(9691);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.of.js
+var esnext_map_of = __webpack_require__(2829);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.reduce.js
+var esnext_map_reduce = __webpack_require__(20722);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.some.js
+var esnext_map_some = __webpack_require__(78263);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.map.update.js
+var esnext_map_update = __webpack_require__(64527);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.math.clamp.js
+var esnext_math_clamp = __webpack_require__(95518);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.math.deg-per-rad.js
+var esnext_math_deg_per_rad = __webpack_require__(31849);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.math.degrees.js
+var esnext_math_degrees = __webpack_require__(14066);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.math.fscale.js
+var esnext_math_fscale = __webpack_require__(23346);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.math.iaddh.js
+var esnext_math_iaddh = __webpack_require__(37610);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.math.imulh.js
+var esnext_math_imulh = __webpack_require__(70397);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.math.isubh.js
+var esnext_math_isubh = __webpack_require__(95721);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.math.rad-per-deg.js
+var esnext_math_rad_per_deg = __webpack_require__(6555);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.math.radians.js
+var esnext_math_radians = __webpack_require__(45353);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.math.scale.js
+var esnext_math_scale = __webpack_require__(7397);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.math.seeded-prng.js
+var esnext_math_seeded_prng = __webpack_require__(78722);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.math.signbit.js
+var esnext_math_signbit = __webpack_require__(60829);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.math.umulh.js
+var esnext_math_umulh = __webpack_require__(6732);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.number.from-string.js
+var esnext_number_from_string = __webpack_require__(87890);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.observable.js
+var esnext_observable = __webpack_require__(89755);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.promise.try.js
+var esnext_promise_try = __webpack_require__(42473);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.reflect.define-metadata.js
+var esnext_reflect_define_metadata = __webpack_require__(67730);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.reflect.delete-metadata.js
+var esnext_reflect_delete_metadata = __webpack_require__(3879);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.reflect.get-metadata.js
+var esnext_reflect_get_metadata = __webpack_require__(36503);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.reflect.get-metadata-keys.js
+var esnext_reflect_get_metadata_keys = __webpack_require__(30729);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.reflect.get-own-metadata.js
+var esnext_reflect_get_own_metadata = __webpack_require__(21670);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.reflect.get-own-metadata-keys.js
+var esnext_reflect_get_own_metadata_keys = __webpack_require__(28155);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.reflect.has-metadata.js
+var esnext_reflect_has_metadata = __webpack_require__(86063);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.reflect.has-own-metadata.js
+var esnext_reflect_has_own_metadata = __webpack_require__(48252);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.reflect.metadata.js
+var esnext_reflect_metadata = __webpack_require__(38969);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.add-all.js
+var esnext_set_add_all = __webpack_require__(76195);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.delete-all.js
+var esnext_set_delete_all = __webpack_require__(13334);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.difference.js
+var esnext_set_difference = __webpack_require__(34546);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.every.js
+var esnext_set_every = __webpack_require__(35365);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.filter.js
+var esnext_set_filter = __webpack_require__(74302);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.find.js
+var esnext_set_find = __webpack_require__(59706);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.from.js
+var esnext_set_from = __webpack_require__(54968);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.intersection.js
+var esnext_set_intersection = __webpack_require__(40837);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.is-disjoint-from.js
+var esnext_set_is_disjoint_from = __webpack_require__(83908);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.is-subset-of.js
+var esnext_set_is_subset_of = __webpack_require__(40132);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.is-superset-of.js
+var esnext_set_is_superset_of = __webpack_require__(34589);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.join.js
+var esnext_set_join = __webpack_require__(50518);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.map.js
+var esnext_set_map = __webpack_require__(49666);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.of.js
+var esnext_set_of = __webpack_require__(92092);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.reduce.js
+var esnext_set_reduce = __webpack_require__(58190);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.some.js
+var esnext_set_some = __webpack_require__(37344);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.symmetric-difference.js
+var esnext_set_symmetric_difference = __webpack_require__(24021);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.set.union.js
+var esnext_set_union = __webpack_require__(10316);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.string.at.js
+var esnext_string_at = __webpack_require__(52196);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.string.code-points.js
+var esnext_string_code_points = __webpack_require__(37830);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.symbol.dispose.js
+var esnext_symbol_dispose = __webpack_require__(69227);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.symbol.observable.js
+var esnext_symbol_observable = __webpack_require__(36086);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.symbol.pattern-match.js
+var esnext_symbol_pattern_match = __webpack_require__(55472);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.weak-map.delete-all.js
+var esnext_weak_map_delete_all = __webpack_require__(3139);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.weak-map.from.js
+var esnext_weak_map_from = __webpack_require__(30038);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.weak-map.of.js
+var esnext_weak_map_of = __webpack_require__(94758);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.weak-set.add-all.js
+var esnext_weak_set_add_all = __webpack_require__(20414);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.weak-set.delete-all.js
+var esnext_weak_set_delete_all = __webpack_require__(69719);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.weak-set.from.js
+var esnext_weak_set_from = __webpack_require__(65274);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/esnext.weak-set.of.js
+var esnext_weak_set_of = __webpack_require__(40629);
+// EXTERNAL MODULE: ./node_modules/core-js/modules/web.immediate.js
+var web_immediate = __webpack_require__(85985);
+// EXTERNAL MODULE: ./node_modules/@amzn/vpc-console-js/dist/index.js
+var dist = __webpack_require__(91801);
+// EXTERNAL MODULE: ./node_modules/@amzn/tangerinebox-weblib/index.js
+var tangerinebox_weblib = __webpack_require__(12420);
+;// CONCATENATED MODULE: ./app/features-override.ts
+const getFeatureAllowlistConfig = urlParamsString => {
+  const urlParams = new URLSearchParams(urlParamsString);
+  const warnings = [];
+  const getOperation = () => {
+    const operation = urlParams.get("operation");
+    if (operation === "include") {
+      return operation;
+    } else if (operation === "exclude") {
+      return operation;
+    } else if (operation === null || operation === undefined) {
+      warnings.push("No operation provided. Defaulting to 'include'");
+      return "include";
+    }
+    warnings.push("Did not recognise the provided operation. Defaulting to 'include'");
+    return "include";
+  };
+  const getFeatures = () => {
+    if (urlParams.has("features")) {
+      var _urlParams$get;
+      return new Set((_urlParams$get = urlParams.get("features")) === null || _urlParams$get === void 0 ? void 0 : _urlParams$get.split(","));
+    } else {
+      warnings.push("No features provided. The feature availability operation will be applied to all features");
+    }
+  };
+  const operation = getOperation();
+  const features = getFeatures();
+  return {
+    operation,
+    features,
+    warnings
+  };
+};
+const getIsFeatureAvailable = urlParamsString => {
+  const featureAllowlistConfig = getFeatureAllowlistConfig(urlParamsString);
+  const applyOperationToAllFeatures = include => {
+    return include;
+  };
+  return feature => {
+    if (featureAllowlistConfig.features === undefined) {
+      return applyOperationToAllFeatures(featureAllowlistConfig.operation === "include");
+    }
+    if (featureAllowlistConfig.operation === "exclude") {
+      var _featureAllowlistConf;
+      return !(featureAllowlistConfig !== null && featureAllowlistConfig !== void 0 && (_featureAllowlistConf = featureAllowlistConfig.features) !== null && _featureAllowlistConf !== void 0 && _featureAllowlistConf.has(feature));
+    } else {
+      var _featureAllowlistConf2;
+      return !!(featureAllowlistConfig !== null && featureAllowlistConfig !== void 0 && (_featureAllowlistConf2 = featureAllowlistConfig.features) !== null && _featureAllowlistConf2 !== void 0 && _featureAllowlistConf2.has(feature));
+    }
+  };
+};
+;// CONCATENATED MODULE: ./app/initialize.ts
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Define required Polyfills */
+
+
+
+const ERROR_EVENT = "error"; // https://developer.mozilla.org/en-US/docs/Web/API/Window/error_event
+const SECURITY_POLICY_VIOLATION_EVENT = "securitypolicyviolation"; // https://developer.mozilla.org/en-US/docs/Web/API/SecurityPolicyViolationEvent
+
+const tb = new tangerinebox_weblib.TangerineBox();
+const stage = tb.getCustomContext("stage");
+const preprodStages = ["alpha", "beta", "gamma"];
+const isPreProdStage = preprodStages.includes(stage);
+const eventTracker = tb.getEventTracker();
+const useCapture = true;
+const useVPCConsoleFeatureOverride = () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  return urlParams.has("useVPCConsoleFeatureOverride");
+};
+window.addEventListener(ERROR_EVENT, e => {
+  eventTracker.addError(e.error);
+}, useCapture);
+window.addEventListener(SECURITY_POLICY_VIOLATION_EVENT, error => {
+  const trackerEvent = error;
+  trackerEvent.Type = SECURITY_POLICY_VIOLATION_EVENT;
+  trackerEvent.BlockedURI = error.blockedURI;
+  trackerEvent.DocumentURI = error.documentURI;
+  trackerEvent.ViolatedDirective = error.violatedDirective;
+  trackerEvent.SourceFile = error.sourceFile;
+  trackerEvent.LineNumber = error.lineNumber;
+  eventTracker.addError(trackerEvent);
+}, useCapture);
+if (typeof AWSC !== "undefined") {
+  AWSC.Feedback.setEndpoint("https://console.aws.amazon.com/feedback/submit-feedback");
+  AWSC.Feedback.setFolder("1f8e2f3a-4f45-4b88-8e89-296bc40157ff");
+}
+if (isPreProdStage && useVPCConsoleFeatureOverride()) {
+  const featureAllowListConfig = getFeatureAllowlistConfig(window.location.search);
+  console.log(`Running in preproduction stage ${stage} with the following feature override`);
+  featureAllowListConfig.warnings.forEach(warning => {
+    console.warn(`[Feature availability]`, warning);
+  });
+  console.log(`[Feature availability] Operation: ${featureAllowListConfig.operation}`);
+  const features = Array.from(featureAllowListConfig.features || []);
+  console.log(`[Feature availability] Features: ${features.length > 0 ? features : "All features"}`);
+  dist.initialize({
+    isFeatureAvailableOverride: getIsFeatureAvailable(window.location.search)
+  });
+} else {
+  dist.initialize();
+}
+
+/***/ }),
+
+/***/ 28022:
+/***/ (() => {
+
+/* (ignored) */
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			id: moduleId,
+/******/ 			loaded: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Flag the module as loaded
+/******/ 		module.loaded = true;
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/chunk loaded */
+/******/ 	(() => {
+/******/ 		var deferred = [];
+/******/ 		__webpack_require__.O = (result, chunkIds, fn, priority) => {
+/******/ 			if(chunkIds) {
+/******/ 				priority = priority || 0;
+/******/ 				for(var i = deferred.length; i > 0 && deferred[i - 1][2] > priority; i--) deferred[i] = deferred[i - 1];
+/******/ 				deferred[i] = [chunkIds, fn, priority];
+/******/ 				return;
+/******/ 			}
+/******/ 			var notFulfilled = Infinity;
+/******/ 			for (var i = 0; i < deferred.length; i++) {
+/******/ 				var [chunkIds, fn, priority] = deferred[i];
+/******/ 				var fulfilled = true;
+/******/ 				for (var j = 0; j < chunkIds.length; j++) {
+/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
+/******/ 						chunkIds.splice(j--, 1);
+/******/ 					} else {
+/******/ 						fulfilled = false;
+/******/ 						if(priority < notFulfilled) notFulfilled = priority;
+/******/ 					}
+/******/ 				}
+/******/ 				if(fulfilled) {
+/******/ 					deferred.splice(i--, 1)
+/******/ 					var r = fn();
+/******/ 					if (r !== undefined) result = r;
+/******/ 				}
+/******/ 			}
+/******/ 			return result;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/ensure chunk */
+/******/ 	(() => {
+/******/ 		// The chunk loading function for additional chunks
+/******/ 		// Since all referenced chunks are already included
+/******/ 		// in this file, this function is empty here.
+/******/ 		__webpack_require__.e = () => (Promise.resolve());
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/node module decorator */
+/******/ 	(() => {
+/******/ 		__webpack_require__.nmd = (module) => {
+/******/ 			module.paths = [];
+/******/ 			if (!module.children) module.children = [];
+/******/ 			return module;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		// no baseURI
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			179: 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		__webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
+/******/ 		
+/******/ 		// install a JSONP callback for chunk loading
+/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
+/******/ 			var [chunkIds, moreModules, runtime] = data;
+/******/ 			// add "moreModules" to the modules object,
+/******/ 			// then flag all "chunkIds" as loaded and fire callback
+/******/ 			var moduleId, chunkId, i = 0;
+/******/ 			if(chunkIds.some((id) => (installedChunks[id] !== 0))) {
+/******/ 				for(moduleId in moreModules) {
+/******/ 					if(__webpack_require__.o(moreModules, moduleId)) {
+/******/ 						__webpack_require__.m[moduleId] = moreModules[moduleId];
+/******/ 					}
+/******/ 				}
+/******/ 				if(runtime) var result = runtime(__webpack_require__);
+/******/ 			}
+/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
+/******/ 			for(;i < chunkIds.length; i++) {
+/******/ 				chunkId = chunkIds[i];
+/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
+/******/ 					installedChunks[chunkId][0]();
+/******/ 				}
+/******/ 				installedChunks[chunkId] = 0;
+/******/ 			}
+/******/ 			return __webpack_require__.O(result);
+/******/ 		}
+/******/ 		
+/******/ 		var chunkLoadingGlobal = globalThis["webpackChunk_amzn_vpc_console_tb"] = globalThis["webpackChunk_amzn_vpc_console_tb"] || [];
+/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
+/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/nonce */
+/******/ 	(() => {
+/******/ 		__webpack_require__.nc = undefined;
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, [216], () => (__webpack_require__(23094)))
+/******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
+/******/ 	
+/******/ })()
+;
+//# sourceMappingURL=main.js.map

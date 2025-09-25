@@ -1,8 +1,36 @@
 import React, { useContext } from 'react'
 import './PlaceOrder.css'
 import { StoreContext } from '../../Context/StoreContext'
+import {loadStripe} from '@stripe/stripe-js';
+import { food_list, menu_list } from '../../assets/assets';
+
+
 
 const PlaceOrder = () => {
+
+    // payment integration
+  const makePayment = async (e) => {
+  e.preventDefault();
+
+const amountKobo = (getTotalCartAmount() + 2) * 100;
+
+  const email = "customer@example.com"; // collect from your form
+
+  const res = await fetch("http://localhost:8085/api/paystack/initialize", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ email, amount: amountKobo })
+  });
+
+  const data = await res.json();
+
+  if (data.authorization_url) {
+    window.location.href = data.authorization_url; // redirect to Paystack hosted page
+  } else {
+    console.error("Paystack error:", data);
+  }
+};
+
 
   const {getTotalCartAmount} = useContext(StoreContext);
   return (
@@ -40,7 +68,8 @@ const PlaceOrder = () => {
                 <b>R{getTotalCartAmount()===0?0:getTotalCartAmount()+2}</b>
               </div>
               <div />
-              <button >PROCEED TO Payment</button>
+              <button onClick={makePayment}>PROCEED TO PAYMENT</button>
+
             </div>
             </div>
 

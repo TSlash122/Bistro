@@ -1,0 +1,134 @@
+/* About.css */
+
+.about-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+    background-color: #f5f5f5;
+  }
+  
+  .about-hero-image {
+    max-width: 50%;
+    border-radius: 10px;
+  }
+  
+  .about-hero-text {
+    max-width: 40%;
+  }
+  
+  .about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-hero p {
+    font-size: 1.5rem;
+    color: #777;
+  }
+  
+  .about-mission, .about-values, .about-how-it-works, .about-testimonials, .about-cta {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .about-mission h2, .about-values h2, .about-how-it-works h2, .about-testimonials h2, .about-cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-mission p, .about-values p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #555;
+  }
+  
+  .about-values ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about-values ul li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+  
+  .step {
+    max-width: 200px;
+  }
+  
+  .step img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .step h3 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+  
+  .testimonials {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  
+  blockquote {
+    font-size: 1.2rem;
+    font-style: italic;
+    max-width: 400px;
+    text-align: left;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #007bff;
+    margin: 10px;
+  }
+  
+  footer {
+    font-size: 1rem;
+    color: #777;
+    text-align: right;
+  }
+  
+  .about-cta {
+    background-color: #007bff;
+    padding: 40px 0;
+    color: white;
+  }
+  
+  .about-cta p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #fff;
+    color: #007bff;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .about-cta-button:hover {
+    background-color: #e6e6e6;
+  }
+  

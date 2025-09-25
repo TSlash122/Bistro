@@ -288,6 +288,7 @@ export const food_list = [
         price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
         category: "Pure Veg"
+      
     },
     {
         _id: "25",

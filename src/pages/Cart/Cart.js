@@ -3,11 +3,15 @@ import React, { useContext } from 'react';
 import { menu_list } from '../../assets/assets';
 import { StoreContext } from '../../Context/StoreContext';
 import { useNavigate } from 'react-router-dom';
+import {loadStripe} from '@stripe/stripe-js';
 
 const Cart = () => {
   const { cartItems, food_list, removeFromCart , getTotalCartAmount} = useContext(StoreContext);
 
   const navigate = useNavigate();
+  console.log(cartItems)
+
+
 
   return (
     <div className='cart'>
